@@ -1,8 +1,8 @@
-import Button from '../components/Button';
-import Container from '../components/Container';
-import Lined from '../components/Lined';
-import styles from './HomePage.module.css';
-import landingImg from '../assets/landing.svg';
+import Button from "../components/Button";
+import Container from "../components/Container";
+import Lined from "../components/Lined";
+import styles from "./HomePage.module.css";
+import landingImg from "../assets/landing.svg";
 
 function HomePage() {
   return (
@@ -22,7 +22,7 @@ function HomePage() {
             지금 함께 시작해보실래요?
           </p>
           <div>
-            <Button>지금 시작하기</Button>
+            <Button>지금 시작하기!</Button>
           </div>
         </div>
         <div className={styles.figure}>
